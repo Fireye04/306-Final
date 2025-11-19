@@ -11,3 +11,5 @@ function getWeather(options = ["rainy", "windy", "sunny"]) {
 
     return options[roll];
 }
+
+window.getWeather = (options = ["rainy", "windy", "sunny"]) => getWeather(options);
