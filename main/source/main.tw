@@ -5,8 +5,8 @@
 <<set $weather =  getWeather()>>
 <<if $weather === "rainy">>
 Damn rain
-[<<elseif $weather === "sunny">>]
+<<elseif $weather === "sunny">>
 Nice day out!
-[<<elseif $weather === "windy">>]
+<<elseif $weather === "windy">>
 Gah, my hat!
 <</if>>
