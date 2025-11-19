@@ -3,9 +3,10 @@ The wanderer wakes in their tent exhausted.
 
 <<set $weather = getWeather()>>
 <<if $weather === "rainy">>The sag in the roof of their tent and steady 
-"drip, 
 drip, 
-drip" of water suggest that it had rained the night before.
+drip, 
+drip
+of water suggest that it had rained the night before.
 
 "Shit" they mutter as they get dressed, their clothes soaked from the water that had poured in the tent entrance. 
 They'd have to remember to dig a moat around their tent tomorrow<<if not $endured>>, 
